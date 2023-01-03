@@ -1,3 +1,56 @@
-.bodyy {
+body {
   background-color: #f0f2f4;
+  margin: 10px;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 0.4rem;
+  gap: 50px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-family: "overskrift1";
+  color: #1784ff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  float: right;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 45%;
+}
+
+.grid_1 {
+  margin: 20px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    text-align: center;
+    padding: 150px;
+    border: 0px solid #d76ea5;
+    background-color: #f0f2f4;
+  }
+  .grid_1 {
+    margin: 10%;
+  }
 }

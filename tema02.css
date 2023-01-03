@@ -35,13 +35,6 @@ header {
   align-items: center;
 }
 
-h1 {
-  text-align: center;
-  padding: 150px;
-  border: 0px solid #d76ea5;
-  background-color: #f0f2f4;
-}
-
 button {
   border: none;
   color: #e8a0c6;
@@ -55,24 +48,60 @@ button {
   font-family: "overskrift1";
 }
 
+.moodboard {
+  width: 70%;
+}
+
+.styletile {
+  width: 70%;
+}
+
 img {
   width: 45%;
 }
 
-.grid_1 {
-  margin: 20px;
+h1 {
+  text-align: center;
+  border: 0px solid #d76ea5;
+  background-color: #f0f2f4;
 }
 
 @media (min-width: 600px) {
   /*computer*/
+
+  h1 {
+    text-align: center;
+    padding: 120px;
+  }
+  .grid_1 {
+    margin: 10%;
+  }
+
   .grid_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    max-width: 100ch;
+    grid-template-columns: 1fr;
+    margin: 10%;
   }
+
+  .grid_1_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+    gap: 12%;
+  }
+
   body {
     margin: 30px;
     padding: 40px;
+  }
+
+  .styletile {
+    width: 30%;
+  }
+
+  .moodboard {
+    grid-column: 2/2;
+    grid-row: 2/1;
+    width: 100%;
   }
 }

@@ -1,11 +1,9 @@
-body {
-  background-color: #f0f2f4;
-  margin: 10px;
-  padding: 10px;
-}
-
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/indexbaggrund.png);
 }
 
 header nav ul {
@@ -39,18 +37,6 @@ img {
   width: 45%;
 }
 
-.grid_1 {
-  margin: 20px;
-}
-
-@media (min-width: 600px) {
-  h1 {
-    text-align: center;
-    padding: 150px;
-    border: 0px solid #d76ea5;
-    background-color: #f0f2f4;
-  }
-  .grid_1 {
-    margin: 10%;
-  }
+.navn {
+  width: 50%;
 }
