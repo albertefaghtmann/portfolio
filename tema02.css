@@ -1,7 +1,7 @@
 body {
-  background-color: #f0dde9;
+  background-color: #f0f2f4;
   margin: 10px;
-  padding: 30px;
+  padding: 10px;
 }
 
 * {
@@ -29,12 +29,50 @@ a {
 header {
   position: sticky;
   top: 0;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .logo {
-  font-size: 1rem;
+h1 {
+  text-align: center;
+  padding: 150px;
+  border: 0px solid #d76ea5;
+  background-color: #f0f2f4;
+}
+
+button {
+  border: none;
+  color: #e8a0c6;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  font-family: "overskrift1";
+}
+
+img {
+  width: 45%;
+}
+
+.grid_1 {
+  margin: 20px;
+}
+
+@media (min-width: 600px) {
+  /*computer*/
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 100ch;
+  }
+  body {
+    margin: 30px;
+    padding: 40px;
+  }
 }

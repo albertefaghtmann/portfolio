@@ -8,17 +8,72 @@
   src: url(fonte/Kanit/Kanit-Bold.ttf);
 }
 
+@font-face {
+  font-family: "h2er";
+  src: url(fonte/Raleway/static/Raleway-Bold.ttf);
+}
+
 h1 {
   font-family: "overskrift1";
   font-size: 2rem;
-  color: #1784ff;
+  color: #d76ea5;
 }
 
 h2 {
+  font-family: "h2er";
+  color: #9acaf4;
+  font-size: 2rem;
 }
 
 p {
   font-family: "overskrift2";
   font-size: 1.5rem;
   color: #d76ea5;
+}
+
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+
+  display: none; /* Skjul knappen som standard */
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block; /* Vis knappen, når viewporten maksimalt er 600px */
+  }
+
+  .main-menu {
+    display: contents; /* Fjern ".main-menu"-boksen fra ligningen, når viewporten maksimalt er 600px, men behold børnene, så disse deltager i flex-kontekten */
+  }
+
+  .main-menu ul {
+    display: none; /* Fjern menu-listen som standard */
+  }
+
+  .main-menu.shown ul {
+    /* Vis menu-listen, når klassen ".shown" er til stede */
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    text-align: center;
+  }
+}
+
+.toggle-btn .close {
+  display: none;
+}
+
+.pressed .close {
+  display: block;
+}
+
+.pressed .menubtn {
+  display: none;
 }
