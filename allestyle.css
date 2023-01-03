@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "overskrift2";
+  src: url(fonte/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "overskrift1";
+  src: url(fonte/Kanit/Kanit-Bold.ttf);
+}
+
+h1 {
+  font-family: "overskrift1";
+  font-size: 2rem;
+  color: #1784ff;
+}
+
+h2 {
+}
+
+p {
+  font-family: "overskrift2";
+  font-size: 1.5rem;
+  color: #d76ea5;
+}

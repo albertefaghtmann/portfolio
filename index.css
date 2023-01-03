@@ -1,0 +1,54 @@
+body {
+  background-image: url(img/indexbaggrund.png);
+}
+
+a {
+  font-family: "overskrift1";
+  color: #1784ff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+header nav ul {
+  justify-content: space-between;
+  list-style: none;
+  margin: 5;
+  padding: 5;
+  padding-bottom: 0.4rem;
+  gap: 50px;
+  overflow-x: auto;
+  position: sticky;
+}
+
+#portfolio {
+  width: 14%;
+  aspect-ratio: 6/7;
+  position: absolute;
+  top: 500px;
+  left: 550px;
+}
+
+#portfoliosprite {
+  width: 330%;
+  height: 100%;
+  background-image: url("img/Portfoliotext.png");
+  background-size: 100%;
+}
+
+.flyv {
+  animation-name: flyv_kf;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes flyv_kf {
+  0% {
+    transform: translateX(-1000%);
+  }
+
+  100% {
+    transform: translateX(1000%);
+  }
+}
