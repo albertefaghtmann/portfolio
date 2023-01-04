@@ -60,10 +60,26 @@ img {
   width: 45%;
 }
 
+li {
+  font-family: "overskrift2";
+  font-size: 1rem;
+  color: #d76ea5;
+}
+
 h1 {
   text-align: center;
   border: 0px solid #d76ea5;
   background-color: #f0f2f4;
+}
+
+.temabeskrivelsetekst {
+  line-height: 2;
+  margin: -8%;
+  padding: 12%;
+}
+
+.stilarttekst {
+  line-height: 1.7;
 }
 
 @media (min-width: 600px) {
@@ -79,7 +95,7 @@ h1 {
 
   .grid_1_1 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 10%;
   }
 
@@ -96,7 +112,9 @@ h1 {
   }
 
   .styletile {
-    width: 30%;
+    width: 73%;
+    grid-column: 1/2;
+    grid-row: 1/1;
   }
 
   .moodboard {
