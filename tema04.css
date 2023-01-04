@@ -60,6 +60,12 @@ button {
   font-family: "overskrift1";
 }
 
+.tematekst {
+  line-height: 2;
+  margin: -8%;
+  padding: 12%;
+}
+
 @media (min-width: 600px) {
   h1 {
     text-align: center;
@@ -72,5 +78,13 @@ button {
   }
   .grid_1_1 {
     margin: 10%;
+  }
+
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 10%;
+    justify-content: center;
   }
 }

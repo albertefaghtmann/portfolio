@@ -37,6 +37,33 @@ img {
   width: 45%;
 }
 
-.navn {
-  width: 50%;
+img.navn {
+  width: 70%;
+}
+
+@media (min-width: 600px) {
+  /*computer*/
+  .grid_1 {
+    width: 80%;
+    margin: 70px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  iframe {
+    width: 50%;
+    height: 800px;
+    position: relative;
+    left: 5%;
+  }
+
+  .cvbillede {
+    width: 50%;
+    position: relative;
+    left: 80%;
+  }
+
+  img.navn {
+    width: 150%;
+  }
 }
