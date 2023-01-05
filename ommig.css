@@ -41,6 +41,11 @@ img.navn {
   width: 70%;
 }
 
+iframe {
+  width: 100%;
+  height: 800px;
+}
+
 @media (min-width: 600px) {
   /*computer*/
   .grid_1 {

@@ -13,22 +13,26 @@
   src: url(fonte/Raleway/static/Raleway-Bold.ttf);
 }
 
+@font-face {
+  font-family: "ups";
+  src: url(fonte/Poppins/Poppins-LightItalic.ttf);
+}
+
 h1 {
   font-family: "overskrift1";
-  font-size: 4rem;
   color: #d76ea5;
 }
 
 h2 {
   font-family: "h2er";
-  color: #9acaf4;
+  color: #7dbdf5;
   font-size: 2rem;
 }
 
 p {
   font-family: "overskrift2";
   font-size: 1rem;
-  color: #d76ea5;
+  color: #0d5db9;
 }
 
 /* burgermenu */
