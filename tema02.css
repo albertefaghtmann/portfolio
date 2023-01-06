@@ -72,14 +72,15 @@ h1 {
   font-size: 2rem;
 }
 
-.temabeskrivelsetekst {
-  line-height: 2;
+.temabeskrivelsetekst,
+.styletiletekst {
   margin: -8%;
   padding: 12%;
+  line-height: 2.3;
 }
 
-.stilarttekst {
-  line-height: 1.7;
+.moodboardtekst {
+  line-height: 2.3;
 }
 
 @media (min-width: 600px) {
@@ -91,7 +92,8 @@ h1 {
     font-size: 4rem;
     background-color: #f0dde9;
   }
-  .grid_1 {
+  .grid_1,
+  .grid_2 {
     margin: 10%;
   }
 
@@ -129,5 +131,9 @@ h1 {
     margin: 10%;
     color: #e8a0c6;
     font-size: 2rem;
+  }
+
+  .stilarttekst {
+    line-height: 2.3;
   }
 }

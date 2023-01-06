@@ -18,6 +18,11 @@
   src: url(fonte/Poppins/Poppins-LightItalic.ttf);
 }
 
+@font-face {
+  font-family: "h3er";
+  src: url(fonte/Raleway/static/Raleway-Medium.ttf);
+}
+
 h1 {
   font-family: "overskrift1";
   color: #d76ea5;
@@ -27,6 +32,12 @@ h2 {
   font-family: "h2er";
   color: #7dbdf5;
   font-size: 2rem;
+}
+
+h3 {
+  font-family: "h3er";
+  color: #e8a0c6;
+  font-size: 1.7rem;
 }
 
 p {
