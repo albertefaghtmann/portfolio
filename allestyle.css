@@ -42,7 +42,7 @@ h3 {
 
 p {
   font-family: "overskrift2";
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #0d5db9;
 }
 
@@ -91,4 +91,22 @@ p {
 
 .pressed .menubtn {
   display: none;
+}
+
+/*Footer*/
+
+.instabillede {
+  width: 15%;
+}
+
+footer {
+  margin: 5%;
+}
+
+.footer-style {
+  padding: 1px 300px;
+  background-color: #dadee2;
+}
+
+.footerstyle {
 }

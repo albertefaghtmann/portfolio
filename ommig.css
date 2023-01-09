@@ -62,13 +62,30 @@ iframe {
     left: 5%;
   }
 
-  .cvbillede {
-    width: 50%;
+  .grid_1_1 {
+    grid-row: 1;
+    grid-column: 2;
+    position: relative;
+    left: -40%;
+  }
+
+  .grid_1_1_1 {
     position: relative;
     left: 80%;
   }
 
+  .cvbillede {
+    width: 50%;
+    position: relative;
+    left: 100%;
+  }
+
   img.navn {
     width: 150%;
+  }
+
+  .ommigtekst {
+    color: aliceblue;
+    font-size: 1.5rem;
   }
 }

@@ -39,47 +39,6 @@ img {
   width: 45%;
 }
 
-.grid_1 {
-  margin: 20px;
-}
-
-.grid_1_1 {
-  margin: 20px;
-}
-
-button {
-  border: none;
-  color: #e8a0c6;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  font-family: "overskrift1";
-}
-
-.tematekst {
-  line-height: 2;
-  margin: -8%;
-  padding: 12%;
-}
-
-.piobillede {
-  width: 200%;
-}
-
-.prototypebillede {
-  width: 150%;
-}
-
-h1 {
-  text-align: center;
-  border: 0px solid #d76ea5;
-  font-size: 2rem;
-}
-
 @media (min-width: 600px) {
   h1 {
     text-align: center;
@@ -89,33 +48,30 @@ h1 {
     margin: 70px;
   }
 
-  .grid_1,
+  .grid_1 {
+    margin: 10%;
+  }
+
   .grid_2 {
     margin: 10%;
-  }
-
-  .grid_1_1 {
-    margin: 10%;
-  }
-
-  .grid_5_1 {
-    margin: 10%;
-  }
-
-  .grid_1_1_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_3 {
     margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .piobillede {
-    width: 200%;
+  .moodimg,
+  .styleimg {
+    width: 80%;
   }
 
-  .prototypebillede {
-    width: 150%;
-    position: relative;
-    left: 250px;
+  .prototypeimg,
+  .layoutdiagramimg,
+  .forsideprototypeimg {
+    width: 80%;
   }
 }
