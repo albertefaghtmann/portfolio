@@ -37,7 +37,7 @@ header nav ul {
 
 .flyv {
   animation-name: flyv_kf;
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: both;
@@ -50,5 +50,38 @@ header nav ul {
 
   100% {
     transform: translateX(1000%);
+  }
+}
+
+#navn {
+  width: 14%;
+  aspect-ratio: 6/7;
+  position: absolute;
+  top: 650px;
+  left: 550px;
+}
+
+#navnsprite {
+  width: 330%;
+  height: 80%;
+  background-image: url("img/navn.png");
+  background-size: 100%;
+}
+
+.flyvnavn {
+  animation-name: flyvnavn_kf;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes flyvnavn_kf {
+  0% {
+    transform: translateX(-1000%);
+  }
+
+  100% {
+    transform: translateX(500%);
   }
 }

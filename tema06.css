@@ -39,6 +39,18 @@ img {
   width: 45%;
 }
 
+.moodimg,
+.styleimg {
+  width: 80%;
+}
+
+.prototypeimg,
+.layoutdiagramimg,
+.kodeimg,
+.forsideprototypeimg {
+  width: 80%;
+}
+
 @media (min-width: 600px) {
   h1 {
     text-align: center;

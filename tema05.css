@@ -94,6 +94,14 @@ h1 {
   display: none;
 }
 
+.grid_5_1 {
+  margin: 10%;
+}
+
+.story {
+  width: 95%;
+}
+
 @media (min-width: 600px) {
   h1 {
     text-align: center;
@@ -125,6 +133,7 @@ h1 {
   .story {
     position: relative;
     left: -300px;
+    width: 40%;
   }
 
   .grid_1_1_1_1 {
