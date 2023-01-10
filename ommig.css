@@ -71,7 +71,7 @@ iframe {
 
   .grid_1_1_1 {
     position: relative;
-    left: 80%;
+    left: -60%;
   }
 
   .cvbillede {
@@ -85,7 +85,7 @@ iframe {
   }
 
   .ommigtekst {
-    color: aliceblue;
+    color: #0c396b;
     font-size: 1.5rem;
   }
 }

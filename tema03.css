@@ -220,4 +220,21 @@ h1 {
     position: relative;
     top: 100px;
   }
+
+  .prototypeoverskrift,
+  .testoverskrift {
+    margin: 10%;
+  }
+
+  .testbillede {
+    width: 80%;
+  }
+
+  .grid_4 {
+    margin: 10%;
+    line-height: 2;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 100px;
+  }
 }

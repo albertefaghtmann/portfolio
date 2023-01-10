@@ -12,8 +12,8 @@ a {
 header nav ul {
   justify-content: space-between;
   list-style: none;
-  margin: 5;
-  padding: 5;
+  margin: 5px;
+  padding: 5px;
   padding-bottom: 0.4rem;
   gap: 50px;
   overflow-x: auto;
